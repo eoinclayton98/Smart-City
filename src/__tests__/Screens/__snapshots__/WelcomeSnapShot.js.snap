@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Welcome SnapShot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "white",
+      "flex": 1,
+      "padding": "5%",
+      "paddingTop": "2%",
+    }
+  }
+>
+  <RCTScrollView
+    collapsable={false}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "height": "40%",
+            "width": "100%",
+          }
+        }
+      >
+        <Image
+          source={1}
+          style={
+            Object {
+              "alignSelf": "center",
+              "height": 200,
+              "width": 220,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "top": 25,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+              "fontWeight": "bold",
+              "marginBottom": "2%",
+              "marginTop": "2%",
+              "textAlign": "center",
+              "width": "95%",
+            }
+          }
+        >
+          Hello, Welcome to Smart-City
+        </Text>
+        <Text>
+          This app allows you to take a photo of a building or landmark and our system will return information relevant to this building.
+        </Text>
+        <Text>
+          You can also chose between several predesigned routes to use as a tour guide or see what buildings and landmarks are nearby.
+        </Text>
+        <View
+          style={
+            Object {
+              "marginBottom": "10%",
+              "marginTop": "3%",
+              "width": "50%",
+            }
+          }
+        >
+          <View
+            accessibilityRole="button"
+            accessibilityStates={Array []}
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#007AFF",
+                      "fontSize": 18,
+                      "padding": 8,
+                      "textAlign": "center",
+                    },
+                  ]
+                }
+              >
+                Continue
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#07EFEF",
+        "bottom": 0,
+        "height": "10%",
+        "position": "absolute",
+        "width": 750,
+      }
+    }
+  />
+</View>
+`;
