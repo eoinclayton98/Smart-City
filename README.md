@@ -8,6 +8,8 @@ The app also has several predesigned routes in which the user can choose between
 
 The last feature is a built in map which displays all the landmarks compatible with the app along with the users location. The user can use this map to see where they are in relation to landmarks nearby.
 
+This application utilizes React Native, Python, Flask and Clarifai
+
 
 ## Video walk through
 
